@@ -1,0 +1,39 @@
+Section 1: What is Cloud Computing
+
+1. I have some private servers on my premises, also I have distributed some of
+my workload on the public cloud, what is this architecture called?
+A. Virtual Private Network
+B. Private Cloud
+C. Virtual Private Cloud
+D. Hybrid Cloud
+Answer D.
+Explanation: This type of architecture would be a hybrid cloud. Why? Because we are
+using both, the public cloud, and your on premises servers i.e the private cloud. To
+make this hybrid architecture easy to use, wouldn’t it be better if your private and public
+cloud were all on the same network(virtually). This is established by including your
+public cloud servers in a virtual private cloud, and connecting this virtual cloud with your
+on premise servers using a VPN(Virtual Private Network).
+
+Section 2: Amazon EC2
+
+2. What does the following command do with respect to the Amazon EC2 security
+groups?
+ec2-create-group CreateSecurityGroup
+A. Groups the user created security groups into a new group for easy access.
+B. Creates a new security group for use with your account.
+C. Creates a new group inside the security group.
+D. Creates a new rule inside the security group.
+Answer B.
+Explanation: A Security group is just like a firewall, it controls the traffic in and out of
+your instance. In AWS terms, the inbound and outbound traffic. The command
+mentioned is pretty straight forward, it says create security group, and does the same.
+Moving along, once your security group is created, you can add different rules in it. For
+example, you have an RDS instance, to access it, you have to add the public IP
+address of the machine from which you want access the instance in its security group
+
+
+yff
+yfffffff
+y
+yf
+yffffffffffff
